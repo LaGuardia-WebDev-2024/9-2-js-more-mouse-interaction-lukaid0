@@ -17,6 +17,7 @@ draw = function() {
 //Bonus function - created by Ms. Hall
 var funWithKeys = function(){
   if(keyPressed){
+
     var randomIntensity = random(50,255);
     if(key == 'r'){fill(randomIntensity,0,0);}
     if(key == 'g'){fill(0,randomIntensity,0);}
